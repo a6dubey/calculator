@@ -31,5 +31,5 @@ for(item of buttons){
             screenValue +=buttonText;
             screen.value=screenValue;
         }
-    })
+    });
 }
