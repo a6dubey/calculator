@@ -3,9 +3,6 @@ button{
     width:55px;
     height:55px;
     border-radius: 40%;
-    /* fit-content:auto; */
-    /* text-wrap:auto; */
-    /* justify-content: center; */
     cursor: pointer;
     font-size: 20px;
     border: none;
