@@ -6,8 +6,12 @@ for(item of buttons){
         buttonText=e.target.innerText;
         console.log('Button Text is', buttonText);
         if(buttonText == '='){
-            screenValue=eval(screenValue);
-            screen.value=screenValue;
+              try{
+                screenValue=eval(screenValue);
+                screen.value=screenValue;
+            }catch(err){
+                alert("Upar Wale se to daro BETEEE ")
+            }
 
         }else
         if(buttonText == "AC"){
