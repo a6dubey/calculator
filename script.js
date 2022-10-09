@@ -8,7 +8,6 @@ for(item of buttons){
         if(buttonText == '='){
             screenValue=eval(screenValue);
             screen.value=screenValue;
-//             screenValue='';
 
         }else
         if(buttonText == "AC"){
