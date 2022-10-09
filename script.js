@@ -20,7 +20,8 @@ for(item of buttons){
 
         }else
         if(buttonText== 'DEL'){
-            screen.value=screen.value.slice(0,-1);
+            screenValue=screen.value.slice(0,-1);
+            screen.value=screenValue;
         }else
         if(buttonText == "AC"){
             screenValue="";
