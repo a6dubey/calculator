@@ -26,6 +26,7 @@ text-align: center;
   height: 200px;
   background: linear-gradient(transparent, rgb(229, 60, 60), red,rgb(212, 60, 60),transparent);
   animation: animate 6s linear infinite;
+  /* z-index: ; */
  
 }
 @keyframes animate
@@ -92,7 +93,7 @@ button:hover{
 }
 .span-two{
   width:133px;
-  background-color:red;
+  background-color:rgb(251, 0, 0);
   color: white;
 }
 .span-two:hover{
