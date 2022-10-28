@@ -12,8 +12,8 @@ for(item of buttons){
                 screenValue=eval(screenValue);
                 screen.value=screenValue;
             }catch(err){
-                // alert("Upar Wale se to daro BETEEE ")
-                screen.value="BETEEE";
+                
+                screen.value="error";
             }
             
             // screenValue=screen.value;
